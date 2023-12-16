@@ -55,7 +55,6 @@ const FormSection = () => {
                             className={`${inputStyles} ${errors.day && "outline-light_red"}`}
                             placeholder='DD'
                             type="number"
-                            maxLength="2"
                         />
                         <span className={errorStyles}>{errors.day?.message}</span>
                     </div>
