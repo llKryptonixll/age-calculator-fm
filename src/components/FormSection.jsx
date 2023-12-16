@@ -110,7 +110,7 @@ const FormSection = () => {
 
                 <div className='grid items-center w-full relative after:h-[1px] after:w-full after:bg-light_grey after:absolute after:z-10'>
                     <button className='bg-purple hover:bg-off_black transition-colors md:justify-self-end justify-self-center md:w-[100px] md:h-[100px] w-[65px] h-[65px] rounded-full grid place-items-center relative z-20' aria-label='calculate-age-button'>
-                        <img className='w-full md:h-[50px] h-[30px]' src="/src/assets/images/icon-arrow.svg" alt="arrow-icon" />
+                        <img className='w-full md:h-[50px] h-[30px]' src="images/icon-arrow.svg" alt="arrow-icon" />
                     </button>
                 </div>
             </form>
